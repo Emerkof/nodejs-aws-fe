@@ -51,7 +51,7 @@ export default function Products() {
             />
             <CardContent className={classes.cardContent}>
               <Typography gutterBottom variant="h5" component="h2">
-                {product.name}
+                {product.title}
               </Typography>
               <Typography gutterBottom>
                 {formatAsPrice(product.price)}
